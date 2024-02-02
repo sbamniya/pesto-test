@@ -1,0 +1,25 @@
+.filterSection {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  .selectBox {
+    width: 150px;
+  }
+}
+
+.dueDate {
+  color: green;
+}
+.overdue {
+  color: red;
+}
+
+.pointer {
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+}
